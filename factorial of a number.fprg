@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Sarand"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="1402-02-08 10:23:06 &#1576;.&#1592;"/>
+        <attribute name="created" value="U2FyYW5kO0RFU0tUT1AtOEVINkNVMzsxNDAyLTAyLTA4OzEwOjAyOjI3INioLti4OzU5Njg="/>
+        <attribute name="edited" value="U2FyYW5kO0RFU0tUT1AtOEVINkNVMzsxNDAyLTAyLTA4OzEwOjIzOjA2INioLti4OzE7NjA3Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num, snum, ans" type="Integer" array="False" size=""/>
+            <assign variable="ans" expression="1"/>
+            <assign variable="snum" expression="1"/>
+            <output expression="&quot;&#1604;&#1591;&#1601;&#1575; &#1740;&#1705; &#1593;&#1583;&#1583; &#1608;&#1575;&#1585;&#1583; &#1705;&#1606;&#1740;&#1583;&quot;" newline="True"/>
+            <input variable="num"/>
+            <while expression="snum &lt;= num">
+                <assign variable="ans" expression="ans*snum"/>
+                <assign variable="snum" expression="snum+1"/>
+            </while>
+            <output expression="&quot;&#1580;&#1608;&#1575;&#1576; &#1588;&#1605;&#1575;&quot;" newline="True"/>
+            <output expression="ans" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
